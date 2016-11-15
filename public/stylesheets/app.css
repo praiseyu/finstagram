@@ -20,3 +20,9 @@ main {
 .post .user-info img {
     border-radius: 50%;
 }
+
+.photo:hover {
+    height: 418px;
+    width: 418px;
+    background-color: red;
+}
