@@ -26,7 +26,7 @@ posts = [{
        photo_url: "http://naserca.com/images/shark.png",
        comments: [Comment.create({
            user: sharky_j, 
-           text: "Out for the long weekend... too embarassed to show y'all the beach bod!"
+           text: "Out for the long weekend... too embarassed to show y'all the beach bod!",
        })]
    },
    {
@@ -34,7 +34,7 @@ posts = [{
        photo_url: "http://naserca.com/images/whale.jpg",
        comments: [Comment.create({
            user: kirk_whalum, 
-           text: "#weekendvibes"
+           text: "#weekendvibes",
        })]
    },   
    {
