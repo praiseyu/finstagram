@@ -19,8 +19,6 @@ marlin_peppa = User.create({
    password: "secret"
 })
 
-
-       
 posts = [{
        user: sharky_j,
        photo_url: "http://naserca.com/images/shark.png",
