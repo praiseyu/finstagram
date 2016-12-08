@@ -52,11 +52,6 @@ posts = [{
            text: "#lunchtime! ;)",
        })]
    }   
-   
-   {
-       user: cuppajoe,
-       photo_url: "https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg",
-   }
 ]
    
 posts.each do |post|
