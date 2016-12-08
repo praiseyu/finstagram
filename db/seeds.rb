@@ -19,15 +19,6 @@ marlin_peppa = User.create({
    password: "secret"
 })   
    
-cuppajoe = User.create({
-    username: "cuppajoe",
-    avatar_url: "http://i.dailymail.co.uk/i/pix/2011/12/16/article-2075138-0711B8DD000005DC-306_233x256.jpg",
-    email: "joe@gmail.com",
-    password: "cuppajoe"
-})
-
-
-
 posts = [{
        user: sharky_j,
        photo_url: "http://naserca.com/images/shark.png",
