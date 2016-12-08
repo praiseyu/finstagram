@@ -17,6 +17,7 @@ marlin_peppa = User.create({
    avatar_url: "http://naserca.com/images/marlin_peppa.jpg",
    email: "marlin_peppa@example.com",
    password: "secret"
+})   
    
 cuppajoe = User.create({
     username: "cuppajoe",
@@ -26,8 +27,6 @@ cuppajoe = User.create({
 })
 
 
-
-})
 
 posts = [{
        user: sharky_j,
@@ -53,11 +52,11 @@ posts = [{
            text: "#lunchtime! ;)",
        })]
    }   
-    {
-        user: cuppajoe,
-        photo_url: "https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg",
-    }
-       
+   
+   {
+       user: cuppajoe,
+       photo_url: "https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg",
+   }
 ]
    
 posts.each do |post|
