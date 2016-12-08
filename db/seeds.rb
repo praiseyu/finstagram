@@ -44,7 +44,7 @@ posts = [{
        })]
    }   
 ]
-   
+
 posts.each do |post|
  Post.create(post)
 end
